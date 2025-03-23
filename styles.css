@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px;
+    width: 180px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: 0.3s;
+    background: #555;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #f7c800;
+    transform: scale(1.05);
+}
+
+.input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+.input::placeholder {
+    color: #bbb;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.back-btn {
+    display: block;
+    margin: 15px auto;
+    width: 180px;
+    text-align: center;
+}
+
+.input:focus {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.back-btn {
+    width: 140px;
+    font-size: 0.9em;
+    padding: 8px;
+}
+
+.error {
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 5px;
+    opacity: 0.9;
+}
